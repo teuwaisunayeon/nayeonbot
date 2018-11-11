@@ -17,7 +17,7 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}ping`){
-    message.channel.send("```This bot s made by Arman Dizon | @rmn.reeaal```");
+    message.channel.send("```This bot is made by Arman Dizon | @rmn.reeaal```");
   }
 });
 
