@@ -17,7 +17,7 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}ping`){
-    message.channel.send("Pong!");
+    message.channel.send("Ito ay gawa ni @rmn.reeaal! Beta Test pa lamang ito salamat . . . .");
   }
 });
 
